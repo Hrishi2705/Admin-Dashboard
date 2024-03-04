@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8000;
 
 require('dotenv').config();
 
-const URI = process.env.MONGO_URI;
+const URI = "mongodb+srv://hrishikesh:qwertyuiop@cluster0.lz0edaw.mongodb.net/data";
 // Connect to MongoDB
 mongoose.connect(URI);
 const db = mongoose.connection;
