@@ -5,9 +5,11 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 8000;
 
+require('dotenv').config();
 
+const URI = process.env.MONGO_URI;
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://dbUser:dbPassword@cluster0.xkroe0z.mongodb.net/data');
+mongoose.connect(URI);
 const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
