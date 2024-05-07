@@ -1,13 +1,13 @@
 // server.js
 const express = require('express');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 8000;
+const URI = process.env.MONGO_URL;
 
-require('dotenv').config();
-
-const URI = "mongodb+srv://hrishikesh:qwertyuiop@cluster0.lz0edaw.mongodb.net/data";
 // Connect to MongoDB
 mongoose.connect(URI);
 const db = mongoose.connection;
