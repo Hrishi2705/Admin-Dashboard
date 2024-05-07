@@ -9,17 +9,19 @@ This project is a Sales Admin Dashboard built using Node.js, Express.js, and Mon
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
 The Sales Admin Dashboard is a tool designed to streamline sales management processes. It provides functionalities to manage salespeople, stores, and their respective assignments. With this dashboard, administrators can efficiently monitor sales activities and make necessary adjustments.
+
 
 ## Pages
 
 1. **Sales People Page**: Displays the status of salespeople, their details, and allows admins to edit and assign new areas.
 2. **Stores vs Sales People Page**: Provides information on stores and their assigned salespeople, along with onboarding details.
 3. **Stores Page**: Access details of individual stores, including store owner information, store images, GST images, etc.
+
 
 ## Setup
 
@@ -29,6 +31,7 @@ To run this project locally, follow these steps:
 2. Install dependencies using `npm install`.
 3. Set up MongoDB and configure the connection in the `.env` file.
 4. Run the application using `nodemon .\server.js`.
+
 
 ## Usage
 
@@ -54,7 +57,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Commit your changes (`git commit -am 'Add some feature'`).
 5. Push to the branch (`git push origin feature/your-feature`).
 6. Create a new Pull Request.
-
-## License
-
-[Include your project's license here.]
