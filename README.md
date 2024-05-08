@@ -1,6 +1,6 @@
 # Sales Admin Dashboard
 
-This project is a Sales Admin Dashboard built using Node.js, Express.js, and MongoDB for the backend, and simple HTML, CSS, and JavaScript for the frontend.
+This project is a Sales Admin Dashboard built using Node.js, Express.js, and MongoDB for the backend, and HTML, CSS, and JavaScript for the frontend.
 
 ## Table of Contents
 - [Introduction](#introduction)
